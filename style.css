@@ -1,0 +1,47 @@
+body {
+  background-color: #404040;
+  color: #e6e6e6;
+}
+
+h1 {
+  text-align: center;
+}
+
+.buttons {
+  height: 80px;
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.buttons div {
+  height: 100%;
+  width: 30%;
+  background-color: #809fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid #668cff;
+}
+
+.buttons div:hover {
+  background-color: #668cff;
+}
+
+.buttons div:active {
+  transform: translateY(5px); 
+}
+
+.round, .score {
+  width: 400px;
+  margin: 0px auto 50px;
+  text-align: center;
+}
+
+.win {
+  color: green;
+}

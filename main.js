@@ -5,20 +5,20 @@ function computerPlay() {
 }
 
 function playRound(playerSelection, computerSelection) {
-  if (playerSelection === 'rock') {
-    if (computerSelection === 'rock') {return 'Tie! Rock is the same as Rock!'}
-    else if (computerSelection === 'paper') {return 'You lose! Paper beats Rock!'}
-    else if (computerSelection === 'scissors') {return 'You win! Rock beats Scissors!'}
+  if (playerSelection === 'Rock') {
+    if (computerSelection === 'Rock') {return 'Tie! Rock is the same as Rock!'}
+    else if (computerSelection === 'Paper') {return 'You lose! Paper beats Rock!'}
+    else if (computerSelection === 'Scissors') {return 'You win! Rock beats Scissors!'}
   } 
-  else if (playerSelection === 'paper') {
-    if (computerSelection === 'rock') {return 'You win! Paper beats Rock!'}
-    else if (computerSelection === 'paper') {return 'Tie! Paper is the same as Paper!'}
-    else if (computerSelection === 'scissors') {return 'You lose! Scissors beat Paper!'}
+  else if (playerSelection === 'Paper') {
+    if (computerSelection === 'Rock') {return 'You win! Paper beats Rock!'}
+    else if (computerSelection === 'Paper') {return 'Tie! Paper is the same as Paper!'}
+    else if (computerSelection === 'Scissors') {return 'You lose! Scissors beat Paper!'}
   } 
-  else if (playerSelection === 'scissors') {
-    if (computerSelection === 'rock') {return 'You lose! Rock beats Scissors!'}
-    else if (computerSelection === 'paper') {return 'You win! Scissors beat Paper!'}
-    else if (computerSelection === 'scissors') {return 'Tie! Scissors is the same as Scissors!'}
+  else if (playerSelection === 'Scissors') {
+    if (computerSelection === 'Rock') {return 'You lose! Rock beats Scissors!'}
+    else if (computerSelection === 'Paper') {return 'You win! Scissors beat Paper!'}
+    else if (computerSelection === 'Scissors') {return 'Tie! Scissors is the same as Scissors!'}
   }
 }
 
